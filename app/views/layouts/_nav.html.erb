@@ -1,0 +1,53 @@
+<nav class="loginNav">
+	<ul>
+		<li>	
+			<% if current_user.nil? %>
+				<%= form_tag log_in_path do |f| %>
+		      <div class="field">
+		        <%= label_tag(:user_name) %>
+		        <%= text_field_tag(:user_name) %>
+		      </div>
+		      <div class="field">
+		        <%= label_tag(:password) %>
+		        <%= password_field_tag(:password) %>
+		      </div>
+		      <div class="actions">
+		        <%= submit_tag(:Login) %>
+		      </div>
+				<% end %>
+			<% end %>
+		</li>
+		<li class="logout">
+			<% if !current_user.nil? %>
+				<%= link_to 'log_out', log_out_path %>
+			<% end %>
+		</li>
+		<li class="edit_account">
+			<% if !current_user.nil? %>
+				<%= link_to 'Edit', edit_user_path(current_user) %>
+			<% end %>
+		</li>
+		<li>
+			<% if !current_user.nil? && current_user.admin == true %>
+				<%= link_to 'Administration of Users', users_path%>
+		</li>
+		<li>
+				<%= link_to 'Administration of Posts', posts_path%>
+		</li>
+			<% end %>
+		</li>
+		<li>
+			<% if current_user.nil? %>
+				<a href="/users/new">Sign up, nerd</a>
+			<% end %>
+		</li>
+	</ul>
+	<div class="post-button-wrapper">
+			<% if flash[:notice] %>
+	    	<div class="loggedin_notice"><%= flash[:notice] %></div>
+	  	<% end %>
+			<% if !current_user.nil? %>
+    		<button><a href="/posts/new">Write a Post!</a></button>
+  		<% end %>
+	</div>
+</nav>

@@ -1,0 +1,52 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+
+.sub-post-pad {
+  width: 100px;
+}
+
+.indents > .indent {
+    width:70px;
+    height:1px;
+    // background-color:blue;
+    margin-bottom:5px;
+    display:inline-block;
+  }
+  .indents {
+    // border-left: 1px blue;
+    // display:inline;
+  }
+.post-body {
+  background-color: #fff;
+  display: inline-block;
+}
+
+.individual-post {
+  background-color: #fff;
+  width: 100%;
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.center-post {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.post-area {
+  // background-color: pink;
+  display: inline-block;
+}
+
+.post-pad {
+  // background-color: red;
+  // height: 20px
+}
+  .feed-img {
+    width: 50px;
+  }

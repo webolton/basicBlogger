@@ -1,0 +1,13 @@
+<h1>New Sub-Post</h1>
+
+<h2>Original Post</h2>
+      <%= @parent_post[:body] %> <br />
+      <%= @parent_post[:user_name] %> <br />
+      <%=  @parent_post[:created_at].localtime.strftime("%B %d  %Y, %l:%M %p") %><br />
+      <% if @parent_post[:updated_at] != @parent_post[:created_at] %>
+        <%= @parent_post[:updated_at].localtime.strftime("Edited at %B %d  %Y, %l:%M %p") %><br />
+      <% end %>
+
+<%= render 'subpost_form' %>
+
+<%= link_to 'Back', posts_path %>

@@ -1,0 +1,43 @@
+<head>
+  <% content_for :title, "basicBlogger" %>
+</head>
+  <div class="post-area">
+    <% def print_post(post, indent=0) %>
+      <div class="individual-post">
+        <span class="indents"><% for i in 0...indent  %><span class="indent"></span><% end %>
+        <% if !post.user.nil? %>
+          <% @user_name = post.user.user_name %>
+            <img src="<%= post.user.avatar.url(:thumb)%>", class="feed-img" >
+            <div class="center-post">
+              <a href="/users/<%= post[:user_id] %>"><%= @user_name %></a>
+             said: 
+          <% else %>
+            <span class="deleted-user-message"><%= "A deleted user said: " %></span>
+          <% end %>
+        <span class="post-body"><%= post.body %>
+          <%= post[:created_at].localtime.strftime("%B %d  %Y, %l:%M %p") %>
+            <% if post[:updated_at] != post[:created_at] %>
+              <%= post[:updated_at].localtime.strftime("Edited at %B %d  %Y, %l:%M %p") %>
+            <% end %>
+        </span>
+        <% if !current_user.nil? && current_user.id == post.user_id %>
+          <a href="/posts/<%= post[:id] %>/edit/">Edit yur post</a>
+        <% end %>
+        <% if !current_user.nil? %>
+            <a href="/subpost/<%= post[:id] %>/">Comment on <%= @user_name %>'s Post</a>
+        <% end %>
+        </div>
+        <div class="post-pad"></div>
+      </div>
+      <br />
+      <% post.sub_posts.each {|sub_post| print_post(sub_post, indent+1) } %>
+      
+    <% end %>
+    <% @posts_desecending.each do |post| %>
+      <% print_post( post ) %>
+      <div class"post-divider"></div>
+      <hr />
+    <% end %>
+  </div>
+
+ 

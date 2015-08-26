@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title><%= yield(:title) %></title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %> 
+    <meta name="author" content="William E. Bolton">
+    <meta name="description" content="basic blogging app">
+    <meta name="keywords" content="basic blogging">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="###">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+
+    <%= render('layouts/header') %>
+
+    <%= render('layouts/nav') unless @disable_nav %>
+
+    <%= yield %>
+
+  </body>
+</html>
+</html>
