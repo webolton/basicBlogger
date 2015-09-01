@@ -2,25 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-
-
-
-.sub-post-pad {
-  width: 100px;
-}
-
 .indents > .indent {
-    width:70px;
+    width:50px;
     height:1px;
-    // background-color:blue;
-    margin-bottom:5px;
+    margin-bottom:10px;
     display:inline-block;
   }
-  .indents {
-    // border-left: 1px blue;
-    // display:inline;
-  }
+
 .post-body {
   background-color: #fff;
   display: inline-block;
@@ -30,23 +18,33 @@
   background-color: #fff;
   width: 100%;
   display: inline-block;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .center-post {
   display: inline-block;
-  margin-bottom: 30px;
+  vertical-align: center;
+  padding-left: 60px;
 }
+
 .post-area {
-  // background-color: pink;
   display: inline-block;
 }
 
-.post-pad {
-  // background-color: red;
-  // height: 20px
+.feed-img, .deleted-user-img {
+  width: 50px;
+  position: absolute;
+  padding-left: 5px;
 }
-  .feed-img {
-    width: 50px;
-  }
+
+.post-divider {
+  height: 15px;
+  width: 1140px;
+}
+
+footer {
+  background-color: #fff;
+  padding: 5px;
+  text-align: center;
+}
