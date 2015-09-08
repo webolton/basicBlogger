@@ -14,25 +14,25 @@
  *= require_self
  */
 @font-face {
-    font-family: 'mixolydian_titlingbold_italic';
-    src: url('mixolydian_titling_bd_it-webfont.eot');
-    src: url('mixolydian_titling_bd_it-webfont.eot?#iefix') format('embedded-opentype'),
-         url('mixolydian_titling_bd_it-webfont.woff2') format('woff2'),
-         url('mixolydian_titling_bd_it-webfont.woff') format('woff'),
-         url('mixolydian_titling_bd_it-webfont.ttf') format('truetype'),
-         url('mixolydian_titling_bd_it-webfont.svg#mixolydian_titlingbold_italic') format('svg');
+    font-family: 'fonts/mixolydian_titlingbold_italic';
+    src: url('fonts/mixolydian_titling_bd_it-webfont.eot');
+    src: url('fonts/mixolydian_titling_bd_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mixolydian_titling_bd_it-webfont.woff2') format('woff2'),
+         url('fonts/mixolydian_titling_bd_it-webfont.woff') format('woff'),
+         url('fonts/mixolydian_titling_bd_it-webfont.ttf') format('truetype'),
+         url('fonts/mixolydian_titling_bd_it-webfont.svg#mixolydian_titlingbold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'mixolydian_titlingbold';
-    src: url('mixolydian_titling_bd-webfont.eot');
-    src: url('mixolydian_titling_bd-webfont.eot?#iefix') format('embedded-opentype'),
-         url('mixolydian_titling_bd-webfont.woff2') format('woff2'),
-         url('mixolydian_titling_bd-webfont.woff') format('woff'),
-         url('mixolydian_titling_bd-webfont.ttf') format('truetype'),
-         url('mixolydian_titling_bd-webfont.svg#mixolydian_titlingbold') format('svg');
+    font-family: 'fonts/mixolydian_titlingbold';
+    src: url('fonts/mixolydian_titling_bd-webfont.eot');
+    src: url('fonts/mixolydian_titling_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mixolydian_titling_bd-webfont.woff2') format('woff2'),
+         url('fonts/mixolydian_titling_bd-webfont.woff') format('woff'),
+         url('fonts/mixolydian_titling_bd-webfont.ttf') format('truetype'),
+         url('fonts/mixolydian_titling_bd-webfont.svg#mixolydian_titlingbold') format('svg');
     font-weight: normal;
 	  font-style: normal;
 }
