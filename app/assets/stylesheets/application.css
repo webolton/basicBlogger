@@ -78,32 +78,40 @@ header a:hover {
   font-weight: bold;
 }
 
-/*.loggedin_notice {
-  float:left;
-}*/
-
 nav ul {
   list-style-type: none;
   margin: 0px;
-  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 5px;
   width: 100%;
-  /*height: 20px;*/
   text-align: center;
 }
 
 nav ul li {
   display: inline-block;
-  background-color: pink;
-  margin-left: 20px;
-  margin-right: 20px;
+  background-color: #ff00ff;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+}
+
+nav ul li:hover {
+  background-color: #ff60ff;
 }
 
 nav a {
   text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .post-button-wrapper {
@@ -111,18 +119,77 @@ nav a {
   padding-bottom: 10px;
 }
 
-.loggedin_notice, .log-in-button {
+.logged-in-notice {
   display: inline-block;
+  float: left;
+  background-color: #6AEB00;
+  padding: 5px;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
 }
 
-.log-in-button {
-  background-color: pink;
+.log-in-form {
+  float: left;
+  background-color: #6AEB00;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 12px;
+}
+
+.log-in-button input {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff00ff;
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+   -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  cursor: pointer; 
+  cursor: hand;
+}
+
+.log-in-button input:hover {
+  background-color: #ff60ff;
+}
+
+.post-button {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff00ff;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 10px;
   padding-left: 10px;
+   -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  cursor: pointer; 
+  cursor: hand;
 }
 
+#sign-up-taunt {
+  display: inline-block;
+  /*float: right;*/
+}
+
+#sign-up-button {
+  float: right;
+}
 
 
 

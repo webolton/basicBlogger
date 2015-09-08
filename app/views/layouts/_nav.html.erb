@@ -1,21 +1,23 @@
 <nav class="loginNav">
 	<ul>
 	<% if current_user.nil? %>
-	<li>
+
 		<%= form_tag log_in_path do |f| %>
+      <div class="log-in-form">
       <div class="field">
-        <%= label_tag(:user_name) %>
+        <%= label_tag(:Username) %>
         <%= text_field_tag(:user_name) %>
       </div>
       <div class="field">
         <%= label_tag(:password) %>
         <%= password_field_tag(:password) %>
       </div>
-      <div class="actions">
-        <%= submit_tag(:Login) %>
+      <div class="log-in-button">
+        <%= submit_tag(:LOGIN) %>
       </div>
 		<% end %>
-	</li>
+    </div>
+  <ul>
 		<% end %>
 		<% if !current_user.nil? %>
   <a href="<%= log_out_path %>">
@@ -44,19 +46,22 @@
     </a>
 	<% end %>
 	<% if current_user.nil? %>
-		<a href="/users/new">
+    <div>
+		<a href="/users/new" id="sign-up-button">
+    Don't have an account? Where have u even been?
       <li>
 		    Sign up, nerd
 		  </li>
     </a>
+    </div>
 	<% end %>
 	</ul>
 	<% if flash[:notice] %>
 		<div class="post-button-wrapper">
-  		<div class="loggedin_notice"><%= flash[:notice] %></div>
+  		<div class="logged-in-notice"><%= flash[:notice] %></div>
 		<% end %>
 		<% if !current_user.nil? %>
-			<a href="/posts/new"><div class="log-in-button">Write a Post!</div></a>
+			<a href="/posts/new"><div class="post-button">Write a Post!</div></a>
 		</div>
 	<% end %>
 </nav>

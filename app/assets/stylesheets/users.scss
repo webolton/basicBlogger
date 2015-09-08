@@ -1,3 +1,44 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.form-wrapper {
+  width: 1140px;
+  // text-align: center;
+}
+
+.form-wrapper h1 {
+  text-align: center;
+}
+.new_user, .edit_user {
+  width: 200px;
+  background-color: #6AEB00;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 12px;
+  margin: 0 auto;
+}
+
+.user-form-submit input {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff00ff;
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+   -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  cursor: pointer; 
+  cursor: hand;
+}
+

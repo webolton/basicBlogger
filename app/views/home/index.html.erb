@@ -12,6 +12,7 @@
             <a href="/users/<%= post[:user_id] %>"><%= @user_name %></a>
              said:<br />
         <% else %>
+          <% @user_name = "Deleted" %>
           <img src="assets/uggie.jpg" class="feed-img">
           <div class="center-post">Deleted said:<br/>
         <% end %>
