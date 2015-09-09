@@ -1,0 +1,360 @@
+/* line 5, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.indents > .indent {
+  width: 50px;
+  height: 1px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+/* line 12, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.post-body {
+  background-color: #fff;
+  display: inline-block;
+}
+
+/* line 17, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.individual-post {
+  background-color: #fff;
+  width: 100%;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 25, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.center-post {
+  display: inline-block;
+  vertical-align: center;
+  padding-left: 60px;
+}
+
+/* line 31, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.post-area {
+  display: inline-block;
+}
+
+/* line 35, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.feed-img, .deleted-user-img {
+  width: 50px;
+  position: absolute;
+  padding-left: 5px;
+}
+
+/* line 41, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.post-divider {
+  height: 15px;
+  width: 1140px;
+}
+
+/* line 46, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+footer {
+  background-color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+/* line 5, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/posts.scss */
+.form-wrapper {
+  width: 1140px;
+}
+
+/* line 10, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/posts.scss */
+.form-wrapper h1 {
+  text-align: center;
+}
+
+/* line 13, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/posts.scss */
+.new_post, .edit_post {
+  width: 620px;
+  background-color: #6AEB00;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 12px;
+  margin: 0 auto;
+}
+
+/* line 28, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/posts.scss */
+.new_post textarea {
+  resize: none;
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+  font-family: Tahoma, sans-serif;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+/* line 39, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/posts.scss */
+.edit_post textarea {
+  resize: none;
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+  font-family: Tahoma, sans-serif;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+/* line 51, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/posts.scss */
+.post-form-submit input {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff00ff;
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  cursor: pointer;
+  cursor: hand;
+}
+/* line 5, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/users.scss */
+.form-wrapper {
+  width: 1140px;
+}
+
+/* line 10, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/users.scss */
+.form-wrapper h1 {
+  text-align: center;
+}
+
+/* line 13, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/users.scss */
+.new_user, .edit_user {
+  width: 200px;
+  background-color: #6AEB00;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 12px;
+  margin: 0 auto;
+}
+
+/* line 28, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/users.scss */
+.user-form-submit input {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff00ff;
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  cursor: pointer;
+  cursor: hand;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+@font-face {
+    font-family: '/assets/mixolydian_titlingbold_italic';
+    src: url('/assets/mixolydian_titling_bd_it-webfont.eot');
+    src: url('/assets/mixolydian_titling_bd_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/mixolydian_titling_bd_it-webfont.woff2') format('woff2'),
+         url('/assets/mixolydian_titling_bd_it-webfont.woff') format('woff'),
+         url('/assets/mixolydian_titling_bd_it-webfont.ttf') format('truetype'),
+         url('/assets/mixolydian_titling_bd_it-webfont.svg#mixolydian_titlingbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '/assets/mixolydian_titlingbold';
+    src: url('/assets/mixolydian_titling_bd-webfont.eot');
+    src: url('/assets/mixolydian_titling_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/mixolydian_titling_bd-webfont.woff2') format('woff2'),
+         url('/assets/mixolydian_titling_bd-webfont.woff') format('woff'),
+         url('/assets/mixolydian_titling_bd-webfont.ttf') format('truetype'),
+         url('/assets/mixolydian_titling_bd-webfont.svg#mixolydian_titlingbold') format('svg');
+    font-weight: normal;
+	  font-style: normal;
+}
+
+body {
+	width: 1140px;
+	margin: 0 auto;
+	background-color: #CCCCCC;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+header {
+	background: #FFFFFF;
+	margin-top: -26px;
+	height: 145px;
+	left: 0;
+	text-align: center;
+} 
+
+header a {
+  text-decoration: none;
+}
+header a:visited {
+  color: #ff00ff;
+}
+
+header a:hover {
+}
+
+.headerText {
+  font-family: 'mixolydian_titlingbold_italic';
+  font-size: 6.3em;
+  letter-spacing: .20em;
+  color: #ff00ff;
+}
+
+#headerSubText {
+  margin-top: -15px;
+  float: left;
+  margin-left: 60px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: #ff00ff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+}
+
+nav ul li:hover {
+  background-color: #ff60ff;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.post-button-wrapper {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.logged-in-notice {
+  display: inline-block;
+  float: left;
+  background-color: #6AEB00;
+  padding: 5px;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+}
+
+.log-in-form {
+  float: left;
+  background-color: #6AEB00;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 12px;
+}
+
+.log-in-button input {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff00ff;
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+   -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  cursor: pointer; 
+  cursor: hand;
+}
+
+.log-in-button input:hover {
+  background-color: #ff60ff;
+}
+
+.post-button {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff00ff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+   -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  cursor: pointer; 
+  cursor: hand;
+}
+
+#sign-up-taunt {
+  display: inline-block;
+  /*float: right;*/
+}
+
+#sign-up-button {
+  float: right;
+}
+
+
+
