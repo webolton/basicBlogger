@@ -15,8 +15,8 @@
  */
 @font-face {
     font-family: 'mixolydian_titlingbold_italic';
-    src: font-url('mixolydian_titling_bd_it-webfont.eot');
-    src: font-url('mixolydian_titling_bd_it-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('mixolydian_titling_bd_it-webfont.eot');
+    src: url('mixolydian_titling_bd_it-webfont.eot?#iefix') format('embedded-opentype'),
          url('mixolydian_titling_bd_it-webfont.woff2') format('woff2'),
          url('mixolydian_titling_bd_it-webfont.woff') format('woff'),
          url('mixolydian_titling_bd_it-webfont.ttf') format('truetype'),
@@ -27,8 +27,8 @@
 
 @font-face {
     font-family: 'mixolydian_titlingbold';
-    src: font-url('mixolydian_titling_bd-webfont.eot');
-    src: font-url('mixolydian_titling_bd-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('mixolydian_titling_bd-webfont.eot');
+    src: url('mixolydian_titling_bd-webfont.eot?#iefix') format('embedded-opentype'),
          url('mixolydian_titling_bd-webfont.woff2') format('woff2'),
          url('mixolydian_titling_bd-webfont.woff') format('woff'),
          url('mixolydian_titling_bd-webfont.ttf') format('truetype'),
