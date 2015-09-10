@@ -1,4 +1,7 @@
 Rails.application.configure do
+  config.assets.enabled = true
+  config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+  config.assets.precompile += %w( .svg .eot .woff .woff2 .ttf )
   # Settings specified here will take precedence over those in config/application.rb.
   config.serve_static_assets = true
   # Code is not reloaded between requests.
