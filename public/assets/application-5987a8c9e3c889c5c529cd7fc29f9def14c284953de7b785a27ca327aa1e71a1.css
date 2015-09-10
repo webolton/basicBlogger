@@ -1,0 +1,568 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, libstylesheets, vendorstylesheets,
+ * or any plugin's vendorstylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+@font-face {
+  font-family: 'mixolydian_titlingbold_italic';
+  src: url(/assets/mixolydian_titling_bd_it-webfont-c7878bc6fabb714c9292da300e0f6f87115da806a2ed7e6bfec57bd120b9c243.eot);
+  src: url(/assets/mixolydian_titling_bd_it-webfont-c7878bc6fabb714c9292da300e0f6f87115da806a2ed7e6bfec57bd120b9c243.eot?#iefix) format("embedded-opentype"), url(/assets/mixolydian_titling_bd_it-webfont-40258b522768398805d35e62ec3da484cbcd3ba6f2358be98b42a2d9d6273613.woff2) format("woff2"), url(/assets/mixolydian_titling_bd_it-webfont-98261f209dc69c5a530f340bf525e6f8306974c776500143e1ce4ec432298fac.woff) format("woff"), url(/assets/mixolydian_titling_bd_it-webfont-9abb690ff6a258485cbc0d35281b914aa2f4d6e8759d1fff823012fa943ac990.ttf) format("truetype"), url(/assets/mixolydian_titling_bd_it-webfont-ede678e935a639ef97b89522b93f798f47aa48be929d35cc0c8e6e97c356c821.svg#mixolydian_titlingbold_italic) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'mixolydian_titlingbold';
+  src: url(/assets/mixolydian_titling_bd-webfont-a77545cb21011b71dffb45805b14cea8b33bdc688c1c7b4ac7c85cac59fc9d60.eot);
+  src: url(/assets/mixolydian_titling_bd-webfont-a77545cb21011b71dffb45805b14cea8b33bdc688c1c7b4ac7c85cac59fc9d60.eot?#iefix) format("embedded-opentype"), url(/assets/mixolydian_titling_bd-webfont-60ffac9579a25d08fb7af867407bb8bb6b4af4dfea3f9d395ebc9270c59609f1.woff2) format("woff2"), url(/assets/mixolydian_titling_bd-webfont-572134e972a155b41414834d9d3cf272ea29bbc0d31bce128c8b9a30ec29c885.woff) format("woff"), url(/assets/mixolydian_titling_bd-webfont-6e5c07c0d397f0551ef649b6039251d043e6e6b12022bb2b63ff7c503214941f.ttf) format("truetype"), url(/assets/mixolydian_titling_bd-webfont-1801bdc023866f2f10f9de7d586156505ab2b465be327a61718e896b19522f72.svg#mixolydian_titlingbold) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 41, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+body {
+  width: 1140px;
+  margin: 0 auto;
+  background-color: #CCCCCC;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+/* line 49, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+header {
+  background: #FFFFFF;
+  margin-top: -26px;
+  height: 145px;
+  left: 0;
+  text-align: center;
+}
+
+/* line 57, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+header a {
+  text-decoration: none;
+}
+
+/* line 60, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+header a:visited {
+  color: #ff00ff;
+}
+
+/* line 67, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+.headerText {
+  font-family: 'mixolydian_titlingbold_italic';
+  font-size: 6.3em;
+  letter-spacing: .20em;
+  color: #ff00ff;
+}
+
+/* line 74, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+#headerSubText {
+  margin-top: -15px;
+  float: left;
+  margin-left: 60px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 82, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 93, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+nav ul li {
+  display: inline-block;
+  background-color: #ff00ff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+}
+
+/* line 106, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+nav ul li:hover {
+  background-color: #ff60ff;
+}
+
+/* line 110, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* line 118, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+.post-button-wrapper {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* line 123, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+.logged-in-notice {
+  display: inline-block;
+  float: left;
+  background-color: #6AEB00;
+  padding: 5px;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+}
+
+/* line 135, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+.log-in-form {
+  float: left;
+  background-color: #6AEB00;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 12px;
+}
+
+/* line 148, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+.log-in-button input {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff00ff;
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 165, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+.log-in-button input:hover {
+  background-color: #ff60ff;
+}
+
+/* line 169, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+.post-button {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff00ff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 186, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+#sign-up-taunt {
+  display: inline-block;
+  /*float: right;*/
+}
+
+/* line 191, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.css.scss */
+#sign-up-button {
+  float: right;
+}
+/* line 5, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.indents > .indent {
+  width: 50px;
+  height: 1px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+/* line 12, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.post-body {
+  background-color: #fff;
+  display: inline-block;
+}
+
+/* line 17, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.individual-post {
+  background-color: #fff;
+  width: 100%;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 25, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.center-post {
+  display: inline-block;
+  vertical-align: center;
+  padding-left: 60px;
+}
+
+/* line 31, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.post-area {
+  display: inline-block;
+}
+
+/* line 35, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.feed-img, .deleted-user-img {
+  width: 50px;
+  position: absolute;
+  padding-left: 5px;
+}
+
+/* line 41, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+.post-divider {
+  height: 15px;
+  width: 1140px;
+}
+
+/* line 46, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/home.scss */
+footer {
+  background-color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+/* line 5, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/posts.scss */
+.form-wrapper {
+  width: 1140px;
+}
+
+/* line 10, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/posts.scss */
+.form-wrapper h1 {
+  text-align: center;
+}
+
+/* line 13, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/posts.scss */
+.new_post, .edit_post {
+  width: 620px;
+  background-color: #6AEB00;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 12px;
+  margin: 0 auto;
+}
+
+/* line 28, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/posts.scss */
+.new_post textarea {
+  resize: none;
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+  font-family: Tahoma, sans-serif;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+/* line 39, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/posts.scss */
+.edit_post textarea {
+  resize: none;
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+  font-family: Tahoma, sans-serif;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+/* line 51, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/posts.scss */
+.post-form-submit input {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff00ff;
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  cursor: pointer;
+  cursor: hand;
+}
+/* line 5, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/users.scss */
+.form-wrapper {
+  width: 1140px;
+}
+
+/* line 10, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/users.scss */
+.form-wrapper h1 {
+  text-align: center;
+}
+
+/* line 13, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/users.scss */
+.new_user, .edit_user {
+  width: 200px;
+  background-color: #6AEB00;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 12px;
+  margin: 0 auto;
+}
+
+/* line 28, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/users.scss */
+.user-form-submit input {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff00ff;
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  cursor: pointer;
+  cursor: hand;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, libstylesheets, vendorstylesheets,
+ * or any plugin's vendorstylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+@font-face {
+  font-family: 'mixolydian_titlingbold_italic';
+  src: "/assets/mixolydian_titling_bd_it-webfont-c7878bc6fabb714c9292da300e0f6f87115da806a2ed7e6bfec57bd120b9c243.eot";
+  src: "/assets/mixolydian_titling_bd_it-webfont-c7878bc6fabb714c9292da300e0f6f87115da806a2ed7e6bfec57bd120b9c243.eot?#iefix" format("embedded-opentype");
+  src: "/assets/mixolydian_titling_bd_it-webfont-40258b522768398805d35e62ec3da484cbcd3ba6f2358be98b42a2d9d6273613.woff2" format("woff2");
+  src: "/assets/mixolydian_titling_bd_it-webfont-98261f209dc69c5a530f340bf525e6f8306974c776500143e1ce4ec432298fac.woff" format("woff");
+  src: "/assets/mixolydian_titling_bd_it-webfont-9abb690ff6a258485cbc0d35281b914aa2f4d6e8759d1fff823012fa943ac990.ttf" format("truetype");
+  src: "/assets/mixolydian_titling_bd_it-webfont-ede678e935a639ef97b89522b93f798f47aa48be929d35cc0c8e6e97c356c821.svg#mixolydian_titlingbold_italic" format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'mixolydian_titlingbold';
+  src: "/assets/mixolydian_titling_bd-webfont-a77545cb21011b71dffb45805b14cea8b33bdc688c1c7b4ac7c85cac59fc9d60.eot";
+  src: "/assets/mixolydian_titling_bd-webfont-a77545cb21011b71dffb45805b14cea8b33bdc688c1c7b4ac7c85cac59fc9d60.eot?#iefix" format("embedded-opentype");
+  src: "/assets/mixolydian_titling_bd-webfont-60ffac9579a25d08fb7af867407bb8bb6b4af4dfea3f9d395ebc9270c59609f1.woff2" format("woff2");
+  src: "/assets/mixolydian_titling_bd-webfont-572134e972a155b41414834d9d3cf272ea29bbc0d31bce128c8b9a30ec29c885.woff" format("woff");
+  src: "/assets/mixolydian_titling_bd-webfont-6e5c07c0d397f0551ef649b6039251d043e6e6b12022bb2b63ff7c503214941f.ttf" format("truetype");
+  src: "/assets/mixolydian_titling_bd-webfont-1801bdc023866f2f10f9de7d586156505ab2b465be327a61718e896b19522f72.svg#mixolydian_titlingbold" format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 41, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+body {
+  width: 1140px;
+  margin: 0 auto;
+  background-color: #CCCCCC;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+/* line 49, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+header {
+  background: #FFFFFF;
+  margin-top: -26px;
+  height: 145px;
+  left: 0;
+  text-align: center;
+}
+
+/* line 57, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+header a {
+  text-decoration: none;
+}
+
+/* line 60, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+header a:visited {
+  color: #ff00ff;
+}
+
+/* line 67, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+.headerText {
+  font-family: 'mixolydian_titlingbold_italic';
+  font-size: 6.3em;
+  letter-spacing: .20em;
+  color: #ff00ff;
+}
+
+/* line 74, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+#headerSubText {
+  margin-top: -15px;
+  float: left;
+  margin-left: 60px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 82, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 93, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+nav ul li {
+  display: inline-block;
+  background-color: #ff00ff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+}
+
+/* line 106, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+nav ul li:hover {
+  background-color: #ff60ff;
+}
+
+/* line 110, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* line 118, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+.post-button-wrapper {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* line 123, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+.logged-in-notice {
+  display: inline-block;
+  float: left;
+  background-color: #6AEB00;
+  padding: 5px;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+}
+
+/* line 135, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+.log-in-form {
+  float: left;
+  background-color: #6AEB00;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 12px;
+}
+
+/* line 148, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+.log-in-button input {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff00ff;
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 165, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+.log-in-button input:hover {
+  background-color: #ff60ff;
+}
+
+/* line 169, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+.post-button {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff00ff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #fff;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 186, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+#sign-up-taunt {
+  display: inline-block;
+  /*float: right;*/
+}
+
+/* line 191, /Users/WilliamBolton/Documents/nycda/projects/blogging_app/basicBlogger_3/app/assets/stylesheets/application.scss */
+#sign-up-button {
+  float: right;
+}
