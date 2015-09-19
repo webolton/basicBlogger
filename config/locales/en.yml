@@ -20,6 +20,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  # hello: "Hello world"
   whats_up_bruh: "Wassup, bruh"
+  log_out: "Log Out"
   logged_in_flash: " is logged in."
+  edit_your_profile: "Edit yur Profile"
+  write_a_post: "Write a Post!"
+  no_account: "Don't have an account? Where have u even been?"
+  sign_up: "Sign up, nerd"
+  user_name: "Username"
+  password: "Password"

@@ -5,11 +5,11 @@
 		<%= form_tag log_in_path do |f| %>
       <div class="log-in-form">
       <div class="field">
-        <%= label_tag(:Username) %>
+        <label><%= t(:user_name) %></label>
         <%= text_field_tag(:user_name) %>
       </div>
       <div class="field">
-        <%= label_tag(:password) %>
+        <label><%= t(:password) %></label>
         <%= password_field_tag(:password) %>
       </div>
       <div class="log-in-button">
@@ -22,14 +22,14 @@
 		<% if !current_user.nil? %>
   <a href="<%= log_out_path %>">
 	 <li class="logout">
-	   Log Out
+	   <%= t(:log_out) %>
 	 </li>
   </a>
 	<% end %>
 	<% if !current_user.nil? %>
     <a href="<%= edit_user_path(current_user) %>">
   		<li class="edit_account">
-  			Edit Yur Profile
+  			<%= t(:edit_your_profile) %>
   		</li>
     </a>
 	<% end %>
@@ -48,9 +48,9 @@
 	<% if current_user.nil? %>
     <div>
 		<a href="/users/new" id="sign-up-button">
-    Don't have an account? Where have u even been?
+    <%= t(:no_account) %>
       <li>
-		    Sign up, nerd
+		    <%= t(:sign_up) %>
 		  </li>
     </a>
     </div>

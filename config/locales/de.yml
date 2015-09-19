@@ -1,3 +1,11 @@
+# /?locale=de
 de: 
   whats_up_bruh: "Was geht, Alter?"
+  log_out: "ausgeloggen"
   logged_in_flash: " ist eingeloggt."
+  edit_your_profile: "Bearbeit dein Profile"
+  write_a_post: "Schreibt einen Post!"
+  no_account: "Hast du keinen Account? Was ist los?"
+  sign_up: "Anmeldet sich hier"
+  user_name: "Benutzername"
+  password: "Passwort"
